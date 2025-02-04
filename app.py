@@ -44,7 +44,7 @@ def main() :
         print("Class:", class_name[2:], end="")
         print("Confidence Score:", confidence_score)
 
-        st.subheader(f'')
+        st.text('')
         st.info(f'이 방은 {class_name[2:]} 방입니다. \n\n분석의 정확도는 {(confidence_score * 100).round(2)}% 입니다.')
 
 
