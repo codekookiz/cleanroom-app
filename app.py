@@ -1,6 +1,6 @@
 import streamlit as st
 import tensorflow as tf
-from tensorflow.keras.models import load_model  # TensorFlow 내장 Keras 사용
+from keras.models import load_model  # TensorFlow 내장 Keras 사용
 from PIL import Image, ImageOps
 import numpy as np
 
