@@ -63,5 +63,6 @@ def main():
     else:
         st.warning("📢 이미지를 업로드해 주세요.")
 
+
 if __name__ == "__main__":
     main()
